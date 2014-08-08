@@ -1,0 +1,16 @@
+li.name  h1{
+color:#FFFFFF; 
+font-size:2rem;
+   }
+   
+.top-bar-section li.active {
+border-bottom-right-radius:2em;
+border-bottom-left-radius:2em;
+   }
+
+#footer p.copyright{
+font-size: 0.8rem; 
+   }
+
+
+	
