@@ -161,3 +161,12 @@ http://getbootstrap.com/examples/cover/#
     width: 700px;
   }
 }
+
+.devicons
+{
+    font-size: 2em;
+}
+
+h3.masthead-brand{
+    width: 100%;
+}
