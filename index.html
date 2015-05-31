@@ -25,9 +25,20 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 
     <![endif]-->
+      <!--[if lt IE 9]>
+      <script>
+          document.createElement('video');
+      </script>
+      <![endif]-->
   </head>
   <body>
-    <div class="site-wrapper">
+  <video autoplay loop  id="background-video">
+      <source src="video/background.ogg" type="video/ogg">
+      <source src="video/background.ogg" type="video/webm">
+      <source src="video/background.mp4" type="video/mp4">
+  </video>
+  <div id="background-video-pause"><a id="background-video-pause-button" href="#"><i class="fa fa-pause"></i></a></div>
+  <div class="site-wrapper">
           <div class="site-wrapper-inner">
             <div class="cover-container">
               <div class="masthead clearfix ">
@@ -65,15 +76,16 @@
                   </p>
 
                   <p class="lead">I work with:
+
+                  </p>
+
+                  <p class="lead">
                       <span class="devicons devicons-symfony_badge"></span>
                       <span class="devicons devicons-nodejs"></span>
                       <span class="devicons devicons-react"></span>
                       <span class="devicons devicons-backbone"></span>
                       <span class="devicons devicons-drupal"></span>
                       <span class="devicons devicons devicons-jquery"></span>
-                  </p>
-
-                  <p class="lead">I use:
                       <span class="devicons devicons-git"></span>
                       <span class="devicons devicons-docker"></span>
                       <span class="devicons devicons-composer"></span>
@@ -81,21 +93,12 @@
                       <span class="devicons devicons-bower"></span>
                       <span class="devicons devicons-gulp"></span>
                       <span class="devicons devicons-npm"></span>
-                  </p>
-
-                  <p class="lead">I develop on:
                       <span class="devicons devicons-ubuntu"></span>
                       <span class="devicons devicons-apple"></span>
-                  </p>
-
-                  <p class="lead">I browse on:
                       <span class="devicons devicons-firefox"></span>
                       <span class="devicons devicons-chrome"></span>
-                  </p>
-
-                  <p class="lead">I persist on:
                       <span class="devicons devicons-mysql"></span>
-                      <span class="devicons devicons-postgres"></span>
+                      <span class="devicons devicons-postgresql"></span>
                       <span class="devicons devicons-doctrine"></span>
                   </p>
                   <p class="lead">I share using:
@@ -114,6 +117,7 @@
         </div>
 	</div>
   <script src="js/jquery.min.js"></script>
+  <script src="js/marco-loche.js"></script>
   <script src="js/bootstrap.min.js"></script>
     <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
     <link rel="stylesheet" type="text/css" href="http://assets.cookieconsent.silktide.com/current/style.min.css"/>
