@@ -65,6 +65,8 @@ body {
 .masthead-brand {
   margin-top: 10px;
   margin-bottom: 10px;
+  color: #333;
+  font-size: 2.5em;
 }
 
 .masthead-nav > li {
@@ -76,7 +78,6 @@ body {
 .masthead-nav > li > a {
   padding-right: 0;
   padding-left: 0;
-  font-size: 16px;
   font-weight: bold;
   color: #fff; /* IE8 proofing */
   color: rgba(255,255,255,.75);
@@ -178,9 +179,4 @@ html{
 body{
     background-image: url("../img/backgroung.jpg");
     background-size: cover;
-
-}
-
-h3.masthead-brand{
-    color: #4d4d4d;
 }
